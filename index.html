@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GitHub API </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <main id="container">
+        <h1>GitHub User Repo Search</h1>
+        <form>
+            <label for="searchUserName">Search Username</label>
+            <input type="text"  id="userName" name="userName" required>
+            <input id="submitButton" type="submit" value="Username">
+                </form>
+        <p id="errorMsg"></p>
+        <section class="results">
+            <ul id="resultsList">
+
+            </ul>
+        </section>
+    </main>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
